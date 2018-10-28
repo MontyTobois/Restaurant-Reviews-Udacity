@@ -1,13 +1,16 @@
 console.log('Service Worker: Registered');
 
 self.addEventListener('install', function(e) {
-  e.waitUnitl(caches.open('v1').then(function(cache) {
-    return cache.addALl(cacheFiles);
-  }));
+  e.waitUnitl(
+    caches.open('v1').then(function(cache) {
+      return cache.addAll(cacheFiles);
+    })
+  );
 });
 
 self.addEventListener('fetch', function(e) {
-  e.respondWith(caches.match(e.request).then(function(response) {
+  e.respondWith(
+    caches.match(e.request).then(function(response) {
 
     if (response) {
       console.log('Found', e.request, ' in cache');
@@ -15,18 +18,18 @@ self.addEventListener('fetch', function(e) {
 
     } else {
       console.log('Could not find', e.request, 'in cache, FETCHING!');
-
-      return fetch(e.request).then(function(response) {
-        const clonedResponse
-        caches.open('v1').then(function(cache) {
-          cache.put(e.request, clonedResponse)
+        return fetch(e.request);
+        .then(function (response) {
+          const duplicateResponse = response.clone();
+          caches.open('v1').then(function(cache) {
+            cahce.put(e.request, duplicateResponse);
+          })
+          return response;
         })
-        return response;
-      }).catch(function(err) {
-        console.error(err);
-      })
-    }
-  })});
+        .catch(function (err) {
+          console.log(err);
+        });
+  }
 
 const cacheFiles = [
   '/',
