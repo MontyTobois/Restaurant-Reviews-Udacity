@@ -20,9 +20,9 @@ self.addEventListener('fetch', function(e) {
       console.log('Could not find', e.request, 'in cache, FETCHING!');
         return fetch(e.request);
         .then(function (response) {
-          const duplicateResponse = response.clone();
+          const cloneResponse = response.clone();
           caches.open('v1').then(function(cache) {
-            cahce.put(e.request, duplicateResponse);
+            cache.put(e.request, cloneResponse);
           })
           return response;
         })
