@@ -3,17 +3,28 @@
 #### _Three Stage Course Material Project - Restaurant Reviews_
 
 ### Table of Contents
-* [Project Overview: Stage 1](# Project Overview: Stage 1)
+* [Instructions](#Instructions)
 * [Language](#Language)
-* [What do I do from here?](#What do I do from here?)
+* [Setup](#Setup)
 * [References](#Reference)
 
+## Instructions
 
-## Project Overview: Stage 1
+# How to run test
+
+* **Pre-requisite** : Install node.js, npm, and git
+
+* Clone this repo to you terminal or download the zip
+
+# Project Overview: Stage 1
 
 For the **Restaurant Reviews** projects, I turned the static pages into responsive ones. Now usable on a desktop browser, plus a mobile device. It also has included the standard accessibility features, and it does work offline now. Your job is to pick from the finest Restaurants offered in the area.
 
-## What do I do from here?
+## Language
+
+This project is built with **HTML, CSS, JAVASCRIPT.**
+
+## Setup
 
 1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer.
 
