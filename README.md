@@ -2,7 +2,7 @@
 ---
 #### _Three Stage Course Material Project - Restaurant Reviews_
 
-##Table of Contents
+## Table of Contents
 * [Instructions](#Instructions)
 * [Language](#Language)
 * [Setup](#Setup)
