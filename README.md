@@ -10,8 +10,6 @@
 
 ### Instructions
 
-#### How to run test
-
 * **Pre-requisite** : Install node.js, npm, and git
 
 * Clone this repo to you terminal or download the zip
