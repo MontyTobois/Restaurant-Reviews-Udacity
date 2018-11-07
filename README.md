@@ -2,21 +2,21 @@
 ---
 #### _Three Stage Course Material Project - Restaurant Reviews_
 
-### Table of Contents
+##Table of Contents
 * [Instructions](#Instructions)
 * [Language](#Language)
 * [Setup](#Setup)
 * [References](#Reference)
 
-## Instructions
+### Instructions
 
-# How to run test
+#### How to run test
 
 * **Pre-requisite** : Install node.js, npm, and git
 
 * Clone this repo to you terminal or download the zip
 
-# Project Overview: Stage 1
+### Project Overview: Stage 1
 
 For the **Restaurant Reviews** projects, I turned the static pages into responsive ones. Now usable on a desktop browser, plus a mobile device. It also has included the standard accessibility features, and it does work offline now. Your job is to pick from the finest Restaurants offered in the area.
 
