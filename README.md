@@ -10,9 +10,6 @@
 
 ### Instructions
 
-* **Pre-requisite** : Install node.js, npm, and git
-
-* Clone this repo to you terminal or download the zip
 
 ### Project Overview: Stage 1
 
@@ -27,15 +24,14 @@ For the **Restaurant Reviews** projects, I turned the static pages into responsi
 
 * Add you own API Key to code
 
-||||||| merged common ancestors
+
 ## What do I do from here?
-=======
+
 ## Language
 
 This project is built with **HTML, CSS, JAVASCRIPT.**
 
 ## Setup
-
 
 1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer.
 
@@ -46,40 +42,13 @@ In a terminal, check the version of Python you have: `python -V`. If you have Py
 ## References
 
 * `tabIndex` was provide by
-(W3Schools.com)[https://www.w3schools.com/jsref/prop_html_tabindex.asp]
+[W3Schools.com](https://www.w3schools.com/jsref/prop_html_tabindex.asp)
 
 * (Leafletjs)[https://leafletjs.com/], an open-source JavaScript library for mobile-friendly interactive maps, & (Mapbox)[https://www.mapbox.com/], an open source mapping platform for custom designed maps.
-||||||| merged common ancestors
-* `tabIndex` was provide by `W3Schools.com`...
-  `https://www.w3schools.com/jsref/prop_html_tabindex.asp`
-
-* `tabIndex` was provide by `W3Schools.com`...
-  https://www.w3schools.com/jsref/prop_html_tabindex.asp
-
 
 * `WAI-ARIA` tips was provided by `The A11Y Project` and their web accessibility
-
   (checklist)[https://a11yproject.com/checklist]
 
-  checklist ... `https://a11yproject.com/checklist`
-
-  checklist ... https://a11yproject.com/checklist
-
-* Service Worker shout out to (Google Documentation)[https://developers.google.com/web/fundamentals/primers/service-workers/]
-   and (Bad HTTP Response)[https://github.com/vuejs-templates/webpack/issues/446] for the fix.
-* Service Worker shout out to `Google Documentation`...
-  `https://developers.google.com/web/fundamentals/primers/service-workers/` and `https://github.com/vuejs-templates/webpack/issues/446` for the fix.
-
-* Service Worker shout out to `Google Documentation`...
-  https://developers.google.com/web/fundamentals/primers/service-workers/ and https://github.com/vuejs-templates/webpack/issues/446 for the fix.
-
-
+* Service Worker shout out to (Google Documentation)[https://developers.google.com/web/fundamentals/primers/service-workers/] and (Bad HTTP Response)[https://github.com/vuejs-templates/webpack/issues/446] for the fix.
 
 * (Css-Tricks)[https://css-tricks.com/almanac/] for the responsiveness
-
-* `Css-Tricks` for the responsiveness...
-  `https://css-tricks.com/almanac/`
-
-* `Css-Tricks` for the responsiveness...
-  https://css-tricks.com/almanac/
-
