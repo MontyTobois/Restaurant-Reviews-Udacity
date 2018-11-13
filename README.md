@@ -13,7 +13,14 @@
 
 For the **Restaurant Reviews** projects, I turned the static pages into responsive ones. Now usable on a desktop browser, plus a mobile device. It also has included the standard accessibility features, and it does work offline now. Your job is to pick from the finest Restaurants offered in the area.
 
-## What do I do from here?
+### How to run the project
+
+* **Pre-requisite** : Install node.js, npm, and git
+
+* Clone this repo to your terminal or download the zip
+
+* Add you own API Key to code
+
 
 1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer.
 
@@ -23,14 +30,15 @@ In a terminal, check the version of Python you have: `python -V`. If you have Py
 
 ## References
 
-* `tabIndex` was provide by `W3Schools.com`...
-  `https://www.w3schools.com/jsref/prop_html_tabindex.asp`
+* `tabIndex` was provide by
+(W3Schools.com)[https://www.w3schools.com/jsref/prop_html_tabindex.asp]
+
+* (Leafletjs)[https://leafletjs.com/], an open-source JavaScript library for mobile-friendly interactive maps, & (Mapbox)[https://www.mapbox.com/], an open source mapping platform for custom designed maps.
 
 * `WAI-ARIA` tips was provided by `The A11Y Project` and their web accessibility
-  checklist ... `https://a11yproject.com/checklist`
+  (checklist)[https://a11yproject.com/checklist]
 
-* Service Worker shout out to `Google Documentation`...
-  `https://developers.google.com/web/fundamentals/primers/service-workers/` and `https://github.com/vuejs-templates/webpack/issues/446` for the fix.
+* Service Worker shout out to (Google Documentation)[https://developers.google.com/web/fundamentals/primers/service-workers/]
+   and (Bad HTTP Response)[https://github.com/vuejs-templates/webpack/issues/446] for the fix.
 
-* `Css-Tricks` for the responsiveness...
-  `https://css-tricks.com/almanac/`
+* (Css-Tricks)[https://css-tricks.com/almanac/] for the responsiveness
