@@ -48,6 +48,6 @@ In a terminal, check the version of Python you have: `python -V`. If you have Py
 * `WAI-ARIA` tips was provided by `The A11Y Project` and their web accessibility
   [checklist](https://a11yproject.com/checklist)
 
-* Service Worker shout out to (Google Documentation)[https://developers.google.com/web/fundamentals/primers/service-workers/] and [Bad HTTP Response](https://github.com/vuejs-templates/webpack/issues/446) for the fix.
+* Service Worker shout out to [Google Documentation](https://developers.google.com/web/fundamentals/primers/service-workers/) and [Bad HTTP Response](https://github.com/vuejs-templates/webpack/issues/446) for the fix.
 
 * [Css-Tricks](https://css-tricks.com/almanac/) for the responsiveness
